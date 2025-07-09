@@ -76,7 +76,7 @@ cd HiLINK_Plus
 ```
 * To test the HiLINK_TriNet+ model, use the following command:
 ```
-bash run.sh
+bash test_run.sh
 ```
 
 ## 📝 Citation
