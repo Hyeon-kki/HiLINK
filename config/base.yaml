@@ -1,0 +1,24 @@
+checkpoint: ./checkpoints
+dataset   : BOKVQA
+tag       : baseline
+path:
+  img_path      : "../images"
+  train_path    : "../data/train"
+  valid_path    : "../data/train"
+  test_path     : "../data/test"
+  kge_path      : "./model/KGE-train"
+  save_path     : "./checkpoints"
+  log_path      : "./log"
+  test_log_path : "./log/test"
+
+train:
+  experiment  : "HiLINK+"
+  kge_dir     : "kge_path"
+  data_dir    : "data_path"
+  backbone    : "HiLINK+"
+  lr          : 0.00005
+  max_token   : 50
+  batch_size  : 100
+  epoch       : 50
+  drop_out    : 0.2
+  num_workers : 8
