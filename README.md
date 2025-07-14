@@ -109,9 +109,3 @@ For any questions or suggestions regarding this research or code, please feel fr
 
 Hyeonki Jeong: 
 gusrl1210@korea.ac.kr
-
-Taehyeong Kim: 
-taehyeong93@korea.ac.kr 
-
-Wooseok Shin: 
-wsshin95@korea.ac.kr  
